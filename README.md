@@ -96,3 +96,11 @@ After setting up your vertualenv just use one command to install all this requir
 
 - Don't Forget To Change My Specific Mail Provider (SendGrid Settings In settings.py)
 - Note That gstmp feature causes some errors so be carefull while using it for prevent yourself from banned from google (if you use it with google) but it works successfully with sendgrid.
+
+
+## Demo Using Flutter App:
+
+
+
+https://github.com/ahmedesmail07/kickfunding-api-using-rest_framework/assets/93608128/01fa0b41-a643-4660-85a6-4f602f2b2f9d
+
