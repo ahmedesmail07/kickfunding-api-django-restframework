@@ -214,8 +214,8 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 CORS_ALLOWED_ORIGINS = [
-    "https://drf-kickfunding.azurewebsites.net",
+    "https://drf-kickfund.azurewebsites.net",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://drf-kickfunding.azurewebsites.net",
+    "https://drf-kickfund.azurewebsites.net",
 ]
