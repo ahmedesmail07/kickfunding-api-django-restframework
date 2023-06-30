@@ -1,4 +1,6 @@
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 from django.urls import path, include
 from drf_spectacular.views import (
 SpectacularAPIView,
@@ -13,7 +15,8 @@ urlpatterns = [
         url_name="schema"), name="redoc",),
     path("api/schema/docs/", SpectacularSwaggerView.as_view(
         url_name="schema"), name="docs"), 
-]
+]  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
 
 # TODO: @ahmedesmail07
 # ? I Update the URL for account to be api/accounts/ so it matches both my APIs and yours
